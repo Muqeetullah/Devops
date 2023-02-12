@@ -38,7 +38,7 @@ git push - Push the changes in the local Git repository to the remote repository
 ## Linux
 Linux is a free and open-source operating system that is widely used in servers, desktops, and embedded systems. It is known for its stability, security, and flexibility. To use Linux effectively, it is important to have a basic understanding of the command-line interface, also known as the terminal. The terminal allows you to perform various tasks, such as managing files and directories, installing software, and automating repetitive tasks, among others.
 
-## Some Important Linux Commands:
+### Some Important Linux Commands:
 
 ls - List the files and directories in the current directory.
 

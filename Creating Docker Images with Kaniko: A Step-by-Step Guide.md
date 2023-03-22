@@ -11,10 +11,10 @@ Additionally, Docker can be challenging to use in some environments, such as tho
 ## Prerequisites for Using Kaniko
 Before we dive into building Docker images with Kaniko, there are a few prerequisites that you’ll need to meet:
 
-#### A Dockerfile: Kaniko builds container images using a Dockerfile, just like Docker. Make sure you have a Dockerfile that defines the build process for your image.
-#### A Kubernetes Cluster or Docker environment: Kaniko can run in a Kubernetes cluster or a Docker environment. Make sure you have access to a cluster or Docker environment where you want to build the container image.
-#### Kaniko binary: You’ll need to download the Kaniko binary and make it executable on your local machine.
-#### Google Cloud Storage or Amazon S3 bucket (Optional): You can optionally store the built images in a Google Cloud Storage or Amazon S3 bucket. (Optional)
+#### - A Dockerfile: Kaniko builds container images using a Dockerfile, just like Docker. Make sure you have a Dockerfile that defines the build process for your image.
+#### - A Kubernetes Cluster or Docker environment: Kaniko can run in a Kubernetes cluster or a Docker environment. Make sure you have access to a cluster or Docker environment where you want to build the container image.
+#### -  Kaniko binary: You’ll need to download the Kaniko binary and make it executable on your local machine.
+#### - Google Cloud Storage or Amazon S3 bucket (Optional): You can optionally store the built images in a Google Cloud Storage or Amazon S3 bucket. (Optional)
 In this article, we will be focusing on building Containers with Kaniko in Docker Environment but first, let's see what are the benefits of running DockerFile in Kaniko
 
 ### Benefits of running Images in Kaniko
@@ -71,9 +71,9 @@ In this command, you’ll need to replace the following:
 `<tag>`: The tag to apply to the image.
 When running Kaneko following three commands are must so lets look at them one by one
 
-Set the Build Context: Specify the build context by setting the` --context` flag followed by the root directory of the build context.
-Specify the Dockerfile: Specify the Dockerfile to be used for the build process by setting the `--dockerfile` flag followed by the path to the Dockerfile.
-Set the Destination: Set the destination for the built image by setting the `--destination` flag followed by the name and tag of the image.
+- Set the Build Context: Specify the build context by setting the` --context` flag followed by the root directory of the build context.
+- Specify the Dockerfile: Specify the Dockerfile to be used for the build process by setting the `--dockerfile` flag followed by the path to the Dockerfile.
+- Set the Destination: Set the destination for the built image by setting the `--destination` flag followed by the name and tag of the image.
 Finally, your Image building is complete and now you can see the newly pushed image in your container registry
 
 ## Conclusion

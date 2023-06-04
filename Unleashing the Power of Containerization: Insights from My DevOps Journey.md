@@ -49,3 +49,17 @@ Minikube integrates smoothly with Docker, facilitating the deployment and testin
 #### Realistic Testing Environment:
 Minikube allows developers to simulate a production environment locally, identifying and addressing issues before deployment in a production setting.
 For more information on Minikube,you can check my repository
+
+## Implementing DevOps Techniques for Enhanced Efficiency in My Final Year Project (EyesOnRoad)
+####  A Short Intro: 
+My Final Year Project (FYP) is focused on developing a mobile application using React Native. The primary objective of this project is to create a machine-learning model capable of detecting drowsiness in drivers and alerting them accordingly. This application aims to enhance road safety by addressing the critical issue of driver fatigue.
+
+The FYP incorporates various modules to provide a comprehensive solution. First, the application includes a user authentication module to ensure secure access and protect user privacy.Additionally, an emergency contact management module allows users to manage their contacts efficiently in case of any unforeseen situations.
+The core functionality of the application relies on a start button that communicates with a Flask API. This API serves as an intermediary between the mobile app and a Python desktop application responsible for real-time drowsiness detection. The Python desktop app utilizes machine learning algorithms to analyze driver behaviour and detect signs of drowsiness accurately.
+
+Upon detecting drowsiness, the Python desktop app sends a signal back to the mobile app. The mobile app then displays the driver's current location along with nearby rest areas, offering a prompt solution to mitigate the risk of accidents due to drowsiness.
+
+To ensure the reliability and security of the application, containerization is employed. The different modules, including authentication, emergency contact management, Flask API, Python desktop app, and the drowsiness detection model, are encapsulated within separate containers. This approach provides benefits such as improved portability, scalability, fault isolation, and enhanced security.
+
+## Conclusion
+In conclusion, my journey in DevOps has been a quest for knowledge and continuous improvement. Exploring containerization with tools like Docker, Kaniko, and Minikube has expanded my understanding of software development and deployment. By delving into these technologies, I have gained valuable insights and enhanced my knowledge in this field. The pursuit of learning and staying updated with advancements in DevOps will enable me to further optimize and elevate my skills in the ever-evolving landscape of software engineering
